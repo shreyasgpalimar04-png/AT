@@ -9,9 +9,11 @@ export default defineConfig({
   server: {
     host: '0.0.0.0',
     port,
+    allowedHosts: ['at-7beh.onrender.com'],
   },
   preview: {
     host: '0.0.0.0',
     port,
+    allowedHosts: ['at-7beh.onrender.com'],
   },
 })
